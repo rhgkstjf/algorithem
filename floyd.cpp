@@ -192,7 +192,7 @@ template<class k,class s,class r,class n,class x>
 void weight_change_min(k& k, s& s, r& r,n& n,x& x ,nodeptr g[][MAX]);
 
 
-//임의의 2정점에서의 최단거리를알기위해 모든 정점에서의 Dijkstra 최단경로 알고리즘사용과 동일한 floyd알고리즘사용
+// 모든 정점에서의 최단경로를 알아내기위해  floyd알고리즘사용
 void floyd(nodeptr g[][MAX],int path[][MAX], string transfer[][MAX]);
 //인덱스번호를찾음 enum과  name_station통해 그 해당역의 인덱스 반환
 int find_string_to_enum(string station_n);
